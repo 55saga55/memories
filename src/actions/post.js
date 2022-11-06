@@ -2,6 +2,7 @@ import * as api from "../api";
 
 export const getPosts = () => async (dispatch) => {
     
+    // this is 
     try {
       const { data } = await api.fetchPosts();
   
